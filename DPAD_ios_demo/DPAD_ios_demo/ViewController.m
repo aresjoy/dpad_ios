@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <DPADFramework/DPADFramework.h>
 
 @interface ViewController ()
-
+- (IBAction)showOfferWall:(id)sender;
 @end
 
 @implementation ViewController
@@ -17,12 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+//    [DPManager sharedManager].userID = <#사용자 고유 ID#>
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - IBAction
+- (void)showOfferWall:(id)sender {
+    [[DPManager sharedManager] showOFW];
 }
 
 

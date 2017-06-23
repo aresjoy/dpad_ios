@@ -13,7 +13,23 @@
 		765773D01EFCF709001898EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765773CE1EFCF709001898EE /* Main.storyboard */; };
 		765773D21EFCF709001898EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765773D11EFCF709001898EE /* Assets.xcassets */; };
 		765773D51EFCF709001898EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765773D31EFCF709001898EE /* LaunchScreen.storyboard */; };
+		765773E51EFD0582001898EE /* DPADFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765773E11EFD0492001898EE /* DPADFramework.framework */; };
+		765773E71EFD05AA001898EE /* DPADFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 765773E11EFD0492001898EE /* DPADFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		765773E81EFD05AA001898EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				765773E71EFD05AA001898EE /* DPADFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		765773C21EFCF709001898EE /* DPAD_ios_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPAD_ios_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +42,7 @@
 		765773D11EFCF709001898EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		765773D41EFCF709001898EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		765773D61EFCF709001898EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765773E11EFD0492001898EE /* DPADFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DPADFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765773E51EFD0582001898EE /* DPADFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 		765773B91EFCF709001898EE = {
 			isa = PBXGroup;
 			children = (
+				765773E11EFD0492001898EE /* DPADFramework.framework */,
 				765773C41EFCF709001898EE /* DPAD_ios_demo */,
 				765773C31EFCF709001898EE /* Products */,
 			);
@@ -89,6 +108,7 @@
 				765773BE1EFCF709001898EE /* Sources */,
 				765773BF1EFCF709001898EE /* Frameworks */,
 				765773C01EFCF709001898EE /* Resources */,
+				765773E81EFD05AA001898EE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +294,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SK372DD8K2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DPAD_ios_demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -287,6 +311,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SK372DD8K2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DPAD_ios_demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

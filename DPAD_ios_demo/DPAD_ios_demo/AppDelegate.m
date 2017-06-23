@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <DPADFramework/DPADFramework.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [DPManager initManagerWithPubID:<#발급받은 PubID#> appID:<#발급받은 App ID#>];
+
     return YES;
 }
 
