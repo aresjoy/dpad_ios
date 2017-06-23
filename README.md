@@ -45,6 +45,7 @@ GitHub Repositary( https://github.com/aresjoy/dpad_ios.git )에서 프로젝트�
 ### 소스연동
 #### Pub ID 및  App ID 설정
 - 발급 받은 **Pub ID**와 **App ID**를 등록합니다.
+> Objective-C
 ```objc
 #import "AppDelegate.h"
 #import "DPADFramework.h"
@@ -64,18 +65,48 @@ GitHub Repositary( https://github.com/aresjoy/dpad_ios.git )에서 프로젝트�
     return YES;
 }
 ```
+> Swift
+```swift
+import UIKit
+import DPADFramework
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        
+        DPManager.initManager(withPubID: "[발급받은 Pub ID 입력]", appID: "[발급받은 App ID 입력]")
+        
+        return true
+    }
+}
+```
 - Notice : Pub ID와 App ID는 AppDelegate가 아닌 다른 곳에서 등록해도 무방하며 OfferWall을 보여주기 전에만 설정하면 됩니다.
 
 
 #### User ID 설정
 - 사용자를 식별하기 위한 User ID값을 등록합니다.
+> Objective-C
 ```objc
 [DPManager sharedManager].userID = @"[사용자 고유 ID]";
 ```
 
+> Swift
+```swift
+DPManager.shared().userID = "[사용자 고유 ID]"
+```
+
 #### Offer Wall 기능 실행
 - DPAD(Don Push Ad) 오퍼월을 실행하기 위한 메소드를 입력합니다.
+> Objective-C
 ```objc
 [[DPManager sharedManager] showOFW];
 ```
 
+> Swift
+```swift
+DPManager.shared().showOFW()
+```
