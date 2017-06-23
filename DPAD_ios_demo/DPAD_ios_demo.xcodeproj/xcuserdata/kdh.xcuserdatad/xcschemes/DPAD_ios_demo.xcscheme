@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7657739E1EFCF6B1001898EE"
+               BlueprintIdentifier = "765773C11EFCF709001898EE"
                BuildableName = "DPAD_ios_demo.app"
                BlueprintName = "DPAD_ios_demo"
                ReferencedContainer = "container:DPAD_ios_demo.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7657739E1EFCF6B1001898EE"
+            BlueprintIdentifier = "765773C11EFCF709001898EE"
             BuildableName = "DPAD_ios_demo.app"
             BlueprintName = "DPAD_ios_demo"
             ReferencedContainer = "container:DPAD_ios_demo.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7657739E1EFCF6B1001898EE"
+            BlueprintIdentifier = "765773C11EFCF709001898EE"
             BuildableName = "DPAD_ios_demo.app"
             BlueprintName = "DPAD_ios_demo"
             ReferencedContainer = "container:DPAD_ios_demo.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7657739E1EFCF6B1001898EE"
+            BlueprintIdentifier = "765773C11EFCF709001898EE"
             BuildableName = "DPAD_ios_demo.app"
             BlueprintName = "DPAD_ios_demo"
             ReferencedContainer = "container:DPAD_ios_demo.xcodeproj">
