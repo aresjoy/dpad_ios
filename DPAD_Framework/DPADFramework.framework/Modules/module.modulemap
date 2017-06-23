@@ -1,0 +1,6 @@
+framework module DPADFramework {
+  umbrella header "DPADFramework.h"
+
+  export *
+  module * { export * }
+}
