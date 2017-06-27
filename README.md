@@ -3,8 +3,8 @@
 DPAD에 대한 서비스 소개나 이용방법 안내는 아래 아티클에서 확인하실 수 있습니다.
 
 서비스 이용 중 도움이 필요한 경우에는 아래 메일 주소로 연락 부탁 드립니다.
-1. 서비스 이용 및 제휴 문의 - ( mail address )
-2. 기술 문의 : iOS개발팀 ( kdh@aresjoy.com )
+1. 서비스 이용 및 제휴 문의 - ( help@aresjoy.com )
+2. 기술 문의 : iOS개발팀 ( tech@aresjoy.com )
 ***
 
 ## SDK 설치
