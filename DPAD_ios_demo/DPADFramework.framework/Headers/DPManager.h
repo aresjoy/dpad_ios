@@ -60,7 +60,7 @@
 /*!
  * @brief Framework mainBundle Framework
  */
-@property (nonatomic, strong) NSBundle *mainBundle;
+@property (nonatomic, strong, readonly) NSBundle *mainBundle;
 
 /*!
  * @brief pubID Property

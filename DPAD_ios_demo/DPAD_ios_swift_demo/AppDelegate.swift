@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  DPAD_swift_demo
+//  DPAD_ios_swift_demo
 //
-//  Created by kdh on 2017. 6. 27..
+//  Created by kdh on 2017. 6. 23..
 //  Copyright © 2017년 AresJoy. All rights reserved.
 //
 
@@ -17,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        DPManager.initManager(withPubID: "mz3vaw1b", appID: "ke7bpxvpatowhwm0n5zsflcxqatvgd")
+        
+//        DPManager.initManager(withPubID: <#발급받은 PubID#>, appID: <#발급받은 AppID#>);
+        
         return true
     }
 

@@ -439,6 +439,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DPAD_swift_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dpad.ios.DPAD-swift-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +459,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DPAD_swift_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dpad.ios.DPAD-swift-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -494,6 +496,7 @@
 				76837B2C1F023EB2002D4BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

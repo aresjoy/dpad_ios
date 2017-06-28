@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Swift View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DPAD_swift_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SwiftViewController" customModule="DPAD_ios_swift_demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,20 +21,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khd-lD-te8">
-                                <rect key="frame" x="86" y="318.5" width="203" height="30"/>
-                                <state key="normal" title="DPAD Show Offer Wall (Swift)"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRL-9o-B7c">
+                                <rect key="frame" x="110" y="318.5" width="154" height="30"/>
+                                <state key="normal" title="DPAD Offer Wall Show"/>
                                 <connections>
-                                    <action selector="showOfferWall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vqE-TY-xVb"/>
+                                    <action selector="showOfferWall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6em-hJ-I5G"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Khd-lD-te8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I3m-MI-eSm"/>
-                            <constraint firstItem="Khd-lD-te8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aHi-Kz-zxb"/>
+                            <constraint firstItem="sRL-9o-B7c" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GUc-uh-4WR"/>
+                            <constraint firstItem="sRL-9o-B7c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KvX-rX-czB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="showOfferWall" destination="sRL-9o-B7c" id="y5Z-Vr-V6u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

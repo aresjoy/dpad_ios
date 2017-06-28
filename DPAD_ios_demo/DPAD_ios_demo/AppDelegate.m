@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-//    [DPManager initManagerWithPubID:<#발급받은 PubID#> appID:<#발급받은 App ID#>];
+    [DPManager initManagerWithPubID:@"mz3vaw1b" appID:@"ke7bpxvpatowhwm0n5zsflcxqatvgd"];
 
     return YES;
 }

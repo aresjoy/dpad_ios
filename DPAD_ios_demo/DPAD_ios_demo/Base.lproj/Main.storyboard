@@ -22,8 +22,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkH-hg-w8y">
-                                <rect key="frame" x="110.5" y="318.5" width="154" height="30"/>
-                                <state key="normal" title="DPAD Show Offer Wall"/>
+                                <rect key="frame" x="86.5" y="318.5" width="202" height="30"/>
+                                <state key="normal" title="DPAD Show Offer Wall (ObjC)"/>
                                 <connections>
                                     <action selector="showOfferWall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cou-37-Fkh"/>
                                 </connections>

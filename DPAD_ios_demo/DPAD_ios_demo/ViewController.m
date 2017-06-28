@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-//    [DPManager sharedManager].userID = <#사용자 고유 ID#>
+    [DPManager sharedManager].userID = @"TEST";
 }
 
 - (void)didReceiveMemoryWarning {
