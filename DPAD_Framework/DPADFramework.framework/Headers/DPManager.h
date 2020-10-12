@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AdSupport/AdSupport.h>
+@import AdSupport;
+@import AppTrackingTransparency;
 
 @interface DPManager : NSObject
 #pragma mark - Methods
@@ -49,7 +50,7 @@
 /*!
  * @brief 광고식별자 추적 가능 여부 가져오는 함수
  */
-- (BOOL)isAdvertisingTrackingEnabled;
+- (void)isAdvertisingTrackingEnabled:(void (^)(BOOL isEnabled))isEnabled;
 
 /*!
  * @brief 오퍼월 리스트 보기 함수
